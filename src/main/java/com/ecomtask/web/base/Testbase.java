@@ -52,6 +52,6 @@ public class Testbase {
         driver.manage().deleteAllCookies();
         driver.get(props.getProperty("homeURL"));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.duration));
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(TestUtil.duration):
+        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(TestUtil.duration));
     }
 }
