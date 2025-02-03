@@ -16,7 +16,7 @@ import com.ecomtask.web.util.TestUtil;
 
 public class Testbase {
 
-    static WebDriver driver;
+    public static WebDriver driver;
     static ChromeOptions option;
     FileInputStream objfile;
     static Properties props;
